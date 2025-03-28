@@ -1,6 +1,6 @@
 # WiCS Workshop 1 - TigerHack Project
 
-This is a full-stack web application developed during the WiCS Workshop 1 at TigerHack. The project features a modern React frontend and a Node.js/Express backend with MongoDB integration.
+This is a full-stack web application developed for the WiCS Workshop 1 at TigerHack. The project features a modern React frontend and a Node.js/Express backend with MongoDB integration.
 
 ## Project Structure
 
@@ -64,7 +64,7 @@ This is a full-stack web application developed during the WiCS Workshop 1 at Tig
 3. Create a `.env` file in the backend directory with the following variables:
 
    ```
-   PORT=5000
+   PORT=3000
    MONGODB_URI=your_mongodb_connection_string
    ```
 
@@ -90,7 +90,7 @@ This is a full-stack web application developed during the WiCS Workshop 1 at Tig
 3. Create a `.env` file in the frontend directory with the following variables:
 
    ```
-   VITE_API_URL=http://localhost:5000
+   VITE_API_URL=http://localhost:3000
    ```
 
 4. Start the development server:
@@ -101,9 +101,7 @@ This is a full-stack web application developed during the WiCS Workshop 1 at Tig
 ## Development
 
 - Frontend runs on `http://localhost:5173` by default
-- Backend runs on `http://localhost:5000` by default
-- Use `npm run lint` in the frontend directory to check for code style issues
-- Use `npm run build` in the frontend directory to create a production build
+- Backend runs on `http://localhost:3000` by default
 
 ## License
 
